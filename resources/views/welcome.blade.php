@@ -7,12 +7,17 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
+
     <title>ECO Page</title>
+
+   
+
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
+
     <link href="album.css" rel="stylesheet">
   </head>
 
@@ -132,6 +137,9 @@
       </div>
     </footer>
 
+    
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -139,6 +147,10 @@
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="../../../../assets/js/vendor/popper.min.js"></script>
     <script src="../../../../dist/js/bootstrap.min.js"></script>
+
     <script src="../../../../assets/js/vendor/holder.min.js"></script>
   </body>
 </html>
+
+   
+
