@@ -2,160 +2,160 @@
 
 
 
-
 html {
      scroll-behavior: smooth;
      overflow-x: hidden !important;
-}
-
-body {
-     color: #666666;
-     font-size: 14px;
-     font-family: Raleway;
+ }
+ 
+ /*body {
+     font-family: Halis R Black otf (900);
      line-height: 1.80857;
      font-weight: normal;
      overflow-x: hidden !important;
-}
-
-a {
-     color: #1f1f1f;
-     text-decoration: none !important;
-     outline: none !important;
-     
-}
-
-h1 {
-     letter-spacing: 0;
-     font-weight: normal;
-     position: relative;
-     padding: 0 0 10px 0;
-     font-weight: normal;
-     line-height: normal;
-     color: #111111;
-     margin: 0
-}
-
-h1 {
-     font-size: 24px
-}
-
-h1 a {
-     color: #212121;
-     text-decoration: none!important;
-     opacity: 1
-}
-
-button:focus {
-     outline: none;
-}
-
-p {
-     margin: 20px;
+ }*/
+ 
+ 
+ 
+ p {
+     margin: 0px;
      font-weight: 300;
      font-size: 15px;
      line-height: 24px;
-}
-
-a {
+ }
+ 
+ a {
      color: #222222;
-     text-decoration: none;
+     text-decoration: none !important;
      outline: none !important;
-}
-
-img {
+ }
+ 
+ img {
      max-width: 100%;
-     height: auto;
-}
-
-.long_text{
-	width: 100%;
-	float: left;
-	font-size: 20px;
-	color: #060606;
-	text-align: center;
-}
-
-.about_section {
+     height: 400px;
+     width: 756px;
+ }
+ 
+ 
+ 
+ 
+ .date_card1{
     width: 100%;
-    float: left;
-    background-color: #000;
-    margin-top: 70px;
-}
-
-.about_taital {
+    font-size: 23px;
+    font-family: Tw Cen MT Condensed;
+    font-weight: bold;
+    color: #105030;
+    margin-left: -100px;
+    padding-bottom: 20px;
+ }
+ 
+ 
+ 
+ .by1{
+    width: 100%;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -100px;
+    color: #ffffff;
+    font-weight: bold;
+ 
+ }
+ 
+ 
+ /*------------------------------------------------------------------------- card section -------------------------------------------------------------------------*/
+     /* card 1 section*/
+ 
+ .about_section_card1 {
+    width: 100%;
+    float: right;
+    background-color: #88c13d;
+    margin-top: 100px;
+    height: 400px;
+ }
+ 
+ 
+ .about_main_card1{ width: 100%; float: left; margin-bottom: 0px; margin-top: 40px; }
+ 
+ 
+ /*---------------------------------------------------------------- card section end --------------------------------------------------------------------------------*/
+ 
+ .about_taital {
     width: 80%;
     float: right;
-    margin-top: 20px;
-}
-
-.about_text {
+    margin-top: 40px;
+ }
+ 
+ .about_text_card1 {
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 33px;
     color: #ffffff;
     font-weight: bold;
-}
-
-.about_section_2{
-    width: 100%;
-    float: left;
-}
-
-
-
-.about_text_2 {
+    font-family: Halis R Black otf (900);
+    margin-left: -100px;
+    padding-bottom: 25px;
+ }
+ 
+ 
+ 
+ .about_text_2 {
     width: 19%;
     margin: 0 auto;
-    text-align: center;
-    font-size: 40px;
-    color: #0b0e13;
-    border-bottom: 1px solid #49bcfe;
-    text-align: center;
-}
-
-
-
-
-
-.long_text_2 {
+    text-align: left;
+    font-size: 55px;
+    color: #88c13d;
+    text-align: left;
+ }
+ 
+ .long_text_card1 {
     width: 100%;
-    float: left;
-    font-size: 20px;
+    float: right;
+    font-size: 15px;
     color: #ffffff;
-    margin-left: 0px;
-    padding-top: 30px;
-}
-
-.about_bt {
-    width: 34%;
+    padding-top: 20px;
+    margin-right: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+ }
+ 
+ 
+ 
+ .about_bt_card1 {
+    width: 30%;
     float: left;
-    font-size: 19px;
-    color: #ffffff;
-    border-radius: 5px;
-    height: 100px;
+    font-size: 17px;
     font-weight: bold;
-    text-align: center;
+    color: #105030;
     padding-top: 9px;
-    margin-top: 40px;
-}
-
-.about_bt a {
-    color: #ffffff;
-}
-
-.about_bt a:hover{ color: #000; }
-
-.about_img {
+    margin-top: 20px;
+    margin-left: -100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ 
+ 
+ .about_bt_card1 a {
+    color: #105030;
+ }
+ 
+ 
+ 
+ .about_bt_card1 a:hover{ color: #000; }
+ 
+ .about_img {
+    width: 150%;
+    float: left;
+ }
+ 
+ .layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+ }
+ 
+ .about_section_2{
     width: 100%;
     float: left;
-}
-
-.about_main{ width: 100%; float: left; margin-bottom: 80px; }
-
-
-
-
-
+ }
+ 
 
 
 

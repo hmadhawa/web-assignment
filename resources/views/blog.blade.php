@@ -28,20 +28,25 @@
             
         </div>
     </div>
-    <div class="about_section about_main">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="about_taital">
-                    <h1 class="about_text">CARD TITLE</h1>
-                    <p class="long_text_2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and webIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web</p>
-                    <div class="about_bt"><a href="#">ABOUT MORE</a></div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="about_img"><img src=""></div>
+    <div class="about_section_card1 about_main_card1">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about_img"><img src="images/about-bg.png"></div>
+      </div>
+
+        <div class="col-md-6">
+            <div class="about_taital">
+                <h4 class="date_card1">April 20, 2021 | 9:00AM</h4>
+                <h1 class="about_text_card1">WHERE WE’RE GOING AND HOW WE GET THERE TOGETHER</h1>
+
+                <h5 class="by1">By: Climate Change</h5>
+                <p class="long_text_card1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                   </p>
+                <div class="about_bt_card1"><a href="#">Read More &rarr;</a></div>
             </div>
         </div>
     </div>
+  </div>
     <!-- about section end -->
     
 
