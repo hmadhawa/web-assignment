@@ -14,6 +14,10 @@
 
     <!-- Custom styles for this template -->
     <link href="{{asset('css/carousel.css')}}" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </head>
   <body>
 
@@ -35,10 +39,6 @@
               <a class="nav-link disabled" href="#">Disabled</a>
             </li>
           </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     </header>
