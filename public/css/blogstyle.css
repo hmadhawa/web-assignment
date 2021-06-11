@@ -48,7 +48,14 @@ html {
     padding-bottom: 20px;
  }
  
- 
+ .date_card2{
+   width: 100%;
+   font-size: 23px;
+   font-family: Tw Cen MT Condensed;
+   font-weight: bold;
+   color: #Ff414b;
+   margin-left: -100px;
+}
  
  .by1{
     width: 100%;
@@ -60,7 +67,15 @@ html {
  
  }
  
- 
+ .by2{
+   width: 100%;
+   font-size: 19px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-left: -100px;
+   font-weight: bold;
+   color: #444444;
+
+}
  /*------------------------------------------------------------------------- card section -------------------------------------------------------------------------*/
      /* card 1 section*/
  
@@ -71,11 +86,21 @@ html {
     margin-top: 100px;
     height: 400px;
  }
- 
+
+ /* card 2 section*/
+     
+.about_section_card2 {
+   width: 100%;
+   float: right;
+   background-color: #dbdcdd;
+   margin-top: 100px;
+   height: 400px;
+}
  
  .about_main_card1{ width: 100%; float: left; margin-bottom: 0px; margin-top: 40px; }
  
- 
+ .about_main_card2{ width: 100%; float: left; margin-bottom: 0px; margin-top: 0px; }
+
  /*---------------------------------------------------------------- card section end --------------------------------------------------------------------------------*/
  
  .about_taital {
@@ -95,7 +120,16 @@ html {
     padding-bottom: 25px;
  }
  
- 
+ .about_text_card2 {
+   width: 100%;
+   float: left;
+   font-size: 33px;
+   color: #444444;
+   font-weight: bold;
+   font-family: Halis R Black otf (900);
+   margin-left: -100px;
+   padding-bottom: 25px;
+}
  
  .about_text_2 {
     width: 19%;
@@ -117,7 +151,17 @@ html {
  
  }
  
- 
+ .long_text_card2 {
+   width: 100%;
+   float: right;
+   font-size: 15px;
+   color: #444444;
+   margin-left: -100px;
+   padding-top: 20px;
+   margin-right: 100px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
  
  .about_bt_card1 {
     width: 30%;
@@ -131,13 +175,25 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  
- 
+ .about_bt_card2 {
+   width: 30%;
+   float: left;
+   font-size: 17px;
+   font-weight: bold;
+   color: #Ff414b;
+   padding-top: 9px;
+   margin-top: 20px;
+   margin-left: -100px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
  
  .about_bt_card1 a {
     color: #105030;
  }
  
- 
+ .about_bt_card2 a {
+   color: #Ff414b;
+}
  
  .about_bt_card1 a:hover{ color: #000; }
  
