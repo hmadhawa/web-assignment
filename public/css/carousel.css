@@ -89,3 +89,8 @@ body {
     margin-top: 7rem;
   }
 }
+
+
+.topnav-right {
+  float: right;
+}
