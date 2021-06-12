@@ -9,7 +9,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="C:\wathsala\NSBM\MIS\year 1\Semester 2\web app dev\cat.jpg" alt="First slide">
+            <img class="first-slide" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201805/sri-lanka-flood-1024x576.jpeg?7g5.qDvSfGDqLr2_WOFaJfgsL_HckS.t"  alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Example headline.</h1>
