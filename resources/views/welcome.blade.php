@@ -7,32 +7,29 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-
     <title>ECO Page</title>
-   
-
+     
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
     
     <!-- Custom styles for this template -->
-
-    <link href="album.css" rel="stylesheet">
+    <link href="{{asset('css/album.css')}}" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-  <div style="background-image:https://blog.drinktec.com/wp-content/uploads/2020/01/corporate-social-responsibility-umwelt-klimaschutz-1024x484.jpeg" width: 50px; height: 50px;></div>
-    <main role="main">
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-
-          <div class="row">
-            <div class="col-md-4"> 
+  <main role="main">
+ 
+          <img src="https://blog.drinktec.com/wp-content/uploads/2020/01/corporate-social-responsibility-umwelt-klimaschutz-1024x484.jpeg" width="1525" height="600 ">
+          <div class="album bg-light">
+          <div class="container">
+          <div class="row">  
+          <div class="col-md-4"> 
             <div class="card border-dark mb-3 bg-success">
               <div class="card mb-4" >
-         
               <h5 class="card-header">UNICEF</h5>
                 <div class="card-body">
                     <img src="https://e7.pngegg.com/pngimages/989/708/png-clipart-unicef-logo-unicef-graphics-logo-invitational-banquet.png" width="325" height="375" class="card-img-top" alt="https://e7.pngegg.com/pngimages/989/708/png-clipart-unicef-logo-unicef-graphics-logo-invitational-banquet.png">
@@ -127,7 +124,6 @@
                     <div class="btn-group">
                     <a href="https://www.peacebrigades.org/" class="btn btn-success btn-lg" >View</a>
                     <a href="#" class="btn btn-success btn-lg">Edit</a>
-                
                     </div>
                   </div>
                 </div>
@@ -136,6 +132,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </main>
     <p class="text-right"><a href="#">Back to top</a></p>
