@@ -9,30 +9,30 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201805/sri-lanka-flood-1024x576.jpeg?7g5.qDvSfGDqLr2_WOFaJfgsL_HckS.t"  alt="First slide">
+            <img class="first-slide" src="https://cdn.mos.cms.futurecdn.net/X8mQzyLT3D3Uw6ehLKyRnY.jpg"  alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
+                <h1>INTRODUCTION</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="https://images.sadhguru.org/sites/default/files/media_files/freaky-reasons-to-plant-trees.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
+                <h1>WHAT WE DO?</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="https://www.tropicalclimate.org/sri_lanka/drought/main_background/for_children/images/people%20facing%20drought.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
+                <h1>HOW TO CONTRIBUTE</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
               </div>
@@ -52,8 +52,8 @@
 
       
 
-<div class="card" style="width: 30rem;">
-  <img src="..." class="card-img-top" alt="...">
+<div class="card" style="width: 100%;">
+  <img src="https://www.vippng.com/png/detail/552-5524726_root-plant-tree-clip-art-earth-day-tree.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h3 class="card-title">Donation Form</h3>
     
@@ -90,6 +90,18 @@
 </fieldset>
 </form>
     <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<br> 
+<br> 
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
   </div>
 </div>
 

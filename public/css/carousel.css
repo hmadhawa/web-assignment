@@ -92,6 +92,7 @@ body {
 
 
 /*form  */
-.card {
-  
+.card-img-top {
+  height: 30rem ;
+  width: 30rem;
 }
