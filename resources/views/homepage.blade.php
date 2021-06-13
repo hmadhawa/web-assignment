@@ -56,24 +56,26 @@
             <img class="first-slide" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A1F5/production/_116316414_gettyimages-1204032321_smaller.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>Protect Our Earth...</h1>
+                <p id="action">Do you part to save the planet. Every action count!</p>
+                <br>
+                <h4 id="motive">See what you can do...</h4>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+            <img class="second-slide" src="https://breathepa.org/wp-content/uploads/2015/07/air-quality-alert-4x3-1-1080x675.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>Mother Earth needs You</h1>
+                <p id="action">Protecting the planet is every person's duty.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+            <img class="third-slide" src="https://www.sapeople.com/wp-content/uploads/2019/03/climate-strike-2019-03-15T105501Z_1_LYNXNPEF2E0ZK_RTROPTP_4_CLIMATE-CHANGE-YOUTH-AUSTRALIA-900x600.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
