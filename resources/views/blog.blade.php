@@ -37,10 +37,10 @@
         <div class="col-md-6">
             <div class="about_taital">
                 <h4 class="date_card1">April 20, 2021 | 9:00AM</h4>
-                <h1 class="about_text_card1">CARD TITLE</h1>
+                <h1 class="about_text_card13">CARD TITLE</h1>
 
-                <h5 class="by1">By: Climate Change</h5>
-                <p class="long_text_card1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                <h5 class="by13">By: Climate Change</h5>
+                <p class="long_text_card13">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                    </p>
                 <div class="about_bt_card1"><a href="#">Read More &rarr;</a></div>
             </div>
@@ -49,7 +49,7 @@
   </div>
 
 
-  <div class="about_section_card2 about_main_card2">
+  <div class="about_section_card2 about_main_card23">
     <div class="row">
         <div class="col-md-6">
             <div class="about_taital">
@@ -68,7 +68,26 @@
     </div>
 </div>
     <!-- about section end -->
-    
+
+    <div class="about_section_card3 about_main_card23">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="about_img"><img src="images/about-bg.png"></div>
+    </div>
+
+      <div class="col-md-6">
+          <div class="about_taital">
+            <h4 class="date_card3">April 20, 2021 | 9:00AM</h4>
+              <h1 class="about_text_card13">CARD TITLE</h1>
+
+              <h5 class="by13">By: Climate Change</h5>
+              <p class="long_text_card13">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  </p>
+              <div class="about_bt_card3"><a href="#">Read More &rarr;</a></div>
+          </div>
+      </div>
+  </div>
+</div>   
 
 
     
