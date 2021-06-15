@@ -11,25 +11,22 @@
      
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
     
     <!-- Custom styles for this template -->
-    <link href="{{asset('css/album.css')}}" rel="stylesheet"> 
+    <link href="{{asset('css/album.css')}}" type="text/css" rel="stylesheet"> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
 
   <body>
   <main role="main">
- 
-          <img src="https://blog.drinktec.com/wp-content/uploads/2020/01/corporate-social-responsibility-umwelt-klimaschutz-1024x484.jpeg" width="1525" height="600 ">
-          <div class="album bg-light">
+  <img src="https://blog.drinktec.com/wp-content/uploads/2020/01/corporate-social-responsibility-umwelt-klimaschutz-1024x484.jpeg" width="1525" height="600 " >
+          <div class="album bg-success">
           <div class="container">
           <div class="row">  
-          <div class="col-md-4"> 
-            <div class="card border-dark mb-3 bg-success">
-              <div class="card mb-4" >
+          <div class="col-md-4 "> 
+            <div class="card border-dark mb-3">
+              <div class="card-dark mb-4" >
               <h5 class="card-header">UNICEF</h5>
                 <div class="card-body">
                     <img src="https://e7.pngegg.com/pngimages/989/708/png-clipart-unicef-logo-unicef-graphics-logo-invitational-banquet.png" width="325" height="375" class="card-img-top" alt="https://e7.pngegg.com/pngimages/989/708/png-clipart-unicef-logo-unicef-graphics-logo-invitational-banquet.png">
@@ -45,8 +42,8 @@
               </div>
             </div>
             <div class="col-md-4">
-            <div class="card border-dark mb-3 bg-success">
-              <div class="card mb-4 ">
+            <div class="card border-dark mb-3">
+              <div class="card-dark mb-4 ">
               <h5 class="card-header">SOLOCAL</h5>
                 <div class="card-body">
                 <img src="https://static.wixstatic.com/media/9c3e51_73503a71674c4d0bb01693852b7860fc~mv2.png/v1/fill/w_289,h_199,al_c,q_90/file.jpg" width="325" height="375" class="card-img-top" alt="https://static.wixstatic.com/media/9c3e51_73503a71674c4d0bb01693852b7860fc~mv2.png/v1/fill/w_289,h_199,al_c,q_90/file.jpg">
@@ -62,8 +59,8 @@
             </div>
             </div>
             <div class="col-md-4">
-            <div class="card border-dark mb-3 bg-success">
-              <div class="card mb-4 ">
+            <div class="card border-dark mb-3 ">
+              <div class="card-dark mb-4 ">
               <h5 class="card-header">The British Council</h5>
                 <div class="card-body">
                 <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/british-council-1-logo.png" width="325" height="425" class="card-img-top" alt="https://cdn.freebiesupply.com/logos/thumbs/2x/british-council-1-logo.png">
@@ -79,8 +76,8 @@
             </div>
             </div>
             <div class="col-md-4">
-            <div class="card border-dark mb-3 bg-success">
-              <div class="card mb-4 ">
+            <div class="card border-dark mb-3">
+              <div class="card-dark mb-4 ">
               <h5 class="card-header">Asia Foundation</h5>
                 <div class="card-body">
                 <img src="https://pbs.twimg.com/profile_images/803961894486888448/noMrOXzj.jpg" width="325" height="325" class="card-img-top" alt="https://pbs.twimg.com/profile_images/803961894486888448/noMrOXzj.jpg">
@@ -96,8 +93,8 @@
               </div>
             </div>
             <div class="col-md-4">
-            <div class="card border-dark mb-3 bg-success">
-              <div class="card mb-4 ">
+            <div class="card border-dark mb-3 ">
+              <div class="card-dark mb-4 ">
               <h5 class="card-header">USAID</h5>
                 <div class="card-body">
                 <img src="https://www.pikpng.com/pngl/m/495-4958147_usaid-logo-png-transparent-png-logo-de-usaid.png" width="325" height="445" class="card-img-top" alt="https://www.pikpng.com/pngl/m/495-4958147_usaid-logo-png-transparent-png-logo-de-usaid.png">
@@ -113,8 +110,8 @@
               </div>
             </div>
             <div class="col-md-4">
-            <div class="card border-dark mb-3  bg-success" >
-              <div class="card mb-4 ">
+            <div class="card border-dark mb-3  " >
+              <div class="card-dark mb-4 ">
               <h5 class="card-header">Peace Brigades International</h5>
                 <div class="card-body">
                 <img src="https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/001/495/fill_200x200_bp1581590941_pbi_claim.jpg" width="325" height="375" class="card-img-top" alt="https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/001/495/fill_200x200_bp1581590941_pbi_claim.jpg">
