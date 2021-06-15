@@ -56,7 +56,7 @@
             <img class="first-slide" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/A1F5/production/_116316414_gettyimages-1204032321_smaller.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>Protect Our Earth...</h1>
+                <h1><font color="#ffff00">Protect Our Earth...</font></h1>
                 <p id="action">Do you part to save the planet. Every action count!</p>
                 <br>
                 <h4 id="motive">See what you can do...</h4>
@@ -68,7 +68,7 @@
             <img class="second-slide" src="https://breathepa.org/wp-content/uploads/2015/07/air-quality-alert-4x3-1-1080x675.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
-                <h1>Mother Earth needs You</h1>
+                <h1><font color="#ffff99">Mother Earth needs You</font></h1>
                 <p id="action">Protecting the planet is every person's duty.</p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
               </div>
@@ -78,8 +78,8 @@
             <img class="third-slide" src="https://www.sapeople.com/wp-content/uploads/2019/03/climate-strike-2019-03-15T105501Z_1_LYNXNPEF2E0ZK_RTROPTP_4_CLIMATE-CHANGE-YOUTH-AUSTRALIA-900x600.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <h1>The Future is in Our Hands. Give your Collabaration.</h1>
+                <p><font color="#ffff99">As a young generation, let's give our collabaration to avoid climate changes in some way.</font></p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
               </div>
             </div>
@@ -107,22 +107,28 @@
           <div class="col-lg-4">
            
             <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p>Content</p>
+            <br>
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <br><br>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             
             <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p>Content</p>
+            <br>
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <br><br>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
            
             <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p>Content</p>
+            <br>
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <br><br>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
