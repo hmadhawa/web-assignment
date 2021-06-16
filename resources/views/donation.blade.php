@@ -53,42 +53,76 @@
       
 
 <div class="card" style="width: 100%;">
-  <img src="https://www.vippng.com/png/detail/552-5524726_root-plant-tree-clip-art-earth-day-tree.png" class="card-img-top" alt="...">
+  
   <div class="card-body">
     <h3 class="card-title">Donation Form</h3>
     
-    <form method="post" action="{{ route('posts.store') }}">
-                        @csrf
-                        
-           
-            
-            <pre  style="font-family:Bold italic; ">
-               
-    Owner Name   <input type= "text" name="fname" placeholder="Owner Name"> <br>
-    Email        <input type="email" name="email" placeholder="email"> <br>
-    Phone        <input type="text" name="phone" placeholder="+94 7********"> <br> 
-    Purpose      <select>
-        <option value= "">a</option>
-        <option>b</option>
-        <option>sssss</option>
-        <option>a</option>
-    </select> <br>
-    Suggetions    <input type="text" name=""> <br>
-    Donating date <input type="date" name=""> <br>
-    Donate type <input type="radio" name="transmission"> aa   <input type="radio" name="transmission"> bb
-    <br>
-    Other        <textarea> </textarea>
-    <br>
-    <input type="checkbox" name="" >I agree to the terms and conditions
-    <br>
-    <input type="submit" name="" value="Submit"> <input type="reset" name="" value="Reset">
-  
-
-
-</pre>
-
-</fieldset>
-</form>
+    <div class="testbox">
+    <form>
+      <div class="banner">
+        <h1>Donation Form</h1>
+      </div>
+      <br/>
+      <fieldset>
+        <legend>Donation Form</legend>
+        <div class="colums">
+          <div class="item">
+            <label for="fname">First Name<span>*</span></label>
+            <input id="fname" type="text" name="fname" />
+          </div>
+          <div class="item">
+            <label for="lname"> Last Name<span>*</span></label>
+            <input id="lname" type="text" name="lname" />
+          </div>
+          <div class="item">
+            <label for="address">Email Address<span>*</span></label>
+            <input id="address" type="text"   name="address" />
+          </div>
+          <div class="item">
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel"   name="phone"/>
+          </div>
+          <div class="item">
+            <label for="saddress">Street Address</label>
+            <input id="saddress" type="text"   name="city" />
+          </div>
+          <div class="item">
+            <label for="city">City</label>
+            <input id="city" type="text"   name="city" />
+          </div>
+          <div class="item">
+            <label for="zip">Zip/Postal Code</label>
+            <input id="zip" type="text"   name="zip" />
+          </div>
+          <div class="item">
+            <label for="country">Country</label>
+            <input id="country" type="text"   name="text" />
+          </div>
+      </fieldset>
+      <br/>
+      <fieldset>
+      <legend>Donation Details</legend>
+      <div class="colums">
+      </div>
+      <div class="checkbox">
+      <p>May we thank you publicly?</p>
+      <label><input type="checkbox"/>No, please keep my information anonymous
+      </label>
+      </div>
+      <div class="item">
+      <label for="amount">Donation Amount<span>*</span></label>
+      <input id="amount" type="number"   name="amount" />
+      </div>
+      <div class="item">
+      <label for="donation">Donation Comments</label>
+      <textarea id="donation" rows="3"></textarea>
+      </div>
+      </fieldset>
+      <div class="btn-block">
+      <button type="order" href="/">Confirm Order</button>
+      </div>
+    </form>
+    </div>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
@@ -97,9 +131,9 @@
 
 <div class="card" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Bank Details</h5>
+    <h6 class="card-subtitle mb-2 text-muted">text</h6>
+    <p class="card-text">Some 's content.</p>
     <a href="#" class="card-link">Card link</a>
     <a href="#" class="card-link">Another link</a>
   </div>
