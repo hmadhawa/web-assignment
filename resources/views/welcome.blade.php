@@ -17,10 +17,49 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
+  
 
   <body>
   <main role="main">
-  <img src="https://blog.drinktec.com/wp-content/uploads/2020/01/corporate-social-responsibility-umwelt-klimaschutz-1024x484.jpeg" width="1525" height="600 " >
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3" ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 h-10" src="https://e7.pngegg.com/pngimages/989/708/png-clipart-unicef-logo-unicef-graphics-logo-invitational-banquet.png" alt="UNICEF">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-10" src="https://static.wixstatic.com/media/9c3e51_73503a71674c4d0bb01693852b7860fc~mv2.png/v1/fill/w_289,h_199,al_c,q_90/file.jpg" alt="SOLOCAL">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h130" src="https://cdn.freebiesupply.com/logos/thumbs/2x/british-council-1-logo.png" alt="The British Council">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-10" src="https://pbs.twimg.com/profile_images/803961894486888448/noMrOXzj.jpg" alt="Asia Foundation">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-30" src="https://www.pikpng.com/pngl/m/495-4958147_usaid-logo-png-transparent-png-logo-de-usaid.png" alt="USAID">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-10" src="https://betterplace-assets.betterplace.org/uploads/organisation/profile_picture/000/001/495/fill_200x200_bp1581590941_pbi_claim.jpg" alt="Peace Brigades International">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
           <div class="album bg-success">
           <div class="container">
           <div class="row">  
