@@ -24,7 +24,7 @@
               <div class="carousel-caption">
                 <h1>WHAT WE DO?</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
               <div class="carousel-caption text-right">
                 <h1>HOW TO CONTRIBUTE</h1>
                 <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@
         </a>
       </div>
 
-
+<hr>
       
 
 <div class="card" style="width: 100%;">
@@ -119,11 +119,11 @@
       </div>
       </fieldset>
       <div class="btn-block">
-      <button type="order" href="/">Confirm Order</button>
+      <button type="order" href="/">Submit</button>
       </div>
     </form>
     </div>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    
   </div>
 </div>
 <br> 
@@ -134,9 +134,9 @@
     <h5 class="card-title">Bank Details</h5>
     <h6 class="card-subtitle mb-2 text-muted">text</h6>
     <p class="card-text">Some 's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+    
   </div>
 </div>
-
+<br>
+<br>
 @endsection
