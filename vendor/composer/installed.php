@@ -6,7 +6,9 @@
     'aliases' => 
     array (
     ),
+
     'reference' => NULL,
+
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -436,7 +438,9 @@
       'aliases' => 
       array (
       ),
+
       'reference' => NULL,
+
     ),
     'laravel/sail' => 
     array (
