@@ -93,6 +93,15 @@ img {
   margin-left: -100px;
 }
 
+.date_card7{
+  width: 100%;
+  font-size: 23px;
+  font-family: Tw Cen MT Condensed;
+  font-weight: bold;
+  color: #Ff414b;
+  margin-left: -100px;
+}
+
 .by13456{
    width: 100%;
    font-size: 19px;
@@ -103,7 +112,7 @@ img {
 
 }
 
-.by2{
+.by27{
   width: 100%;
   font-size: 19px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -173,9 +182,21 @@ img {
   height: 400px;
 }
 
+/* card 7 section*/
+     
+.about_section_card7 {
+  width: 100%;
+  float: right;
+  background-color: #ffd900;
+  margin-top: 100px;
+  height: 400px;
+}
+
 .about_main_card1{ width: 100%; float: left; margin-bottom: 0px; margin-top: 40px; }
 
 .about_main_card23456{ width: 100%; float: left; margin-bottom: 0px; margin-top: 0px; }
+
+.about_main_card7{ width: 100%; float: left; margin-bottom: 50px; margin-top: 0px; }
 
 /*---------------------------------------------------------------- card section end --------------------------------------------------------------------------------*/
 
@@ -196,7 +217,7 @@ img {
    padding-bottom: 25px;
 }
 
-.about_text_card2 {
+.about_text_card27 {
   width: 100%;
   float: left;
   font-size: 33px;
@@ -227,7 +248,7 @@ img {
 
 }
 
-.long_text_card2 {
+.long_text_card27 {
   width: 100%;
   float: right;
   font-size: 15px;
@@ -311,6 +332,18 @@ img {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.about_bt_card7 {
+  width: 30%;
+  float: left;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-top: 9px;
+  margin-top: 20px;
+  margin-left: -100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .about_bt_card1 a {
    color: #105030;
 }
@@ -333,6 +366,10 @@ img {
 
 .about_bt_card6 a {
   color: #00b3fa;
+}
+
+.about_bt_card7 a {
+  color: #444444;
 }
 
 .about_bt_card1 a:hover{ color: #000; }
