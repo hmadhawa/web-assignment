@@ -29,27 +29,15 @@
   </head>
   <body>
 
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Donation</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            
-             
-          </ul>
-          
-        </div>
-      </nav>
-    </header>
+    <header>             
+      <ul>
+     <li class="#" ><a class="active" href="#home">Home<span class="sr-only">(current)</span></a></li>
+     <li class="#" ><a href="#eco">ECO</a></li>
+     <li class="#" ><a href="#takeaction">Take Action</a></li>
+     <li class="#" ><a href="#donation">Donation</a></li>
+     <li class="#" ><a href="#blog">Blog</a></li>
+   </ul>
+</header>
 
     
 
@@ -66,8 +54,8 @@
             <img class="first-slide" src="https://cdn.mos.cms.futurecdn.net/X8mQzyLT3D3Uw6ehLKyRnY.jpg"  alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <h1>INTRODUCTION</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p> INTRODUCTION</p>
+                <p ><font color="FBFCFC "> You can help to restore the earth's climate by donating to our trusted environmental projects.Show some love to our environment .Stand for what you stand on.</font></p>
                 <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
               </div>
             </div>
@@ -113,7 +101,7 @@
     <p> Description...............</p>
     
     <div class="testbox">
-    <form>
+    <form action="donation.php" method="POST" >
       <div class="banner">
         <h1>Donation Form</h1>
       </div>
@@ -139,7 +127,7 @@
           </div>
           <div class="item">
             <label for="saddress">Street Address</label>
-            <input id="saddress" type="text"   name="city" />
+            <input id="saddress" type="text"   name="scity" />
           </div>
           <div class="item">
             <label for="city">City</label>
@@ -170,7 +158,7 @@
       </div>
       <div class="item">
       <label for="donation">Donation Comments</label>
-      <textarea id="donation" rows="3"></textarea>
+      <textarea id="donation" rows="3" name="area"></textarea>
       </div>
       </fieldset>
       <div class="btn-block">

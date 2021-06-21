@@ -298,4 +298,36 @@ body {
     padding-bottom:5px;
     }
     }
+
+
+    /*nav bar*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: darkgreen;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 30px;
+      text-decoration: none;
+      margin: 20;
+      background-color: darkgreen;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #ccff66;
+    }
+    
+    .active {
+      background-color: #003300;
+    }
   
