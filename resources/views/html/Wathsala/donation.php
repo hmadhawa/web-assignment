@@ -18,7 +18,7 @@ if($conn -> connect_error){
 else{
     $stmt = $conn-> prepare("insert into donation(fname, lname, address, phone, scity, city, date, text, amount,area)
     values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-    $stmt-> bind_param("sssissssds", $fname, $lname, $address, $phone, $scity, $city, $date, $text, $amount, $area);
+    $stmt-> bind_param("sssissisds", $fname, $lname, $address, $phone, $scity, $city, $date, $text, $amount, $area);
     $stmt-> execute();
     echo "Form Submitted Successfully...!";
     $stmt-> close();
