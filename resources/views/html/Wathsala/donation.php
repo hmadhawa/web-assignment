@@ -1,4 +1,7 @@
 <?php
+
+/* first code
+------------------------------------------------------------------------------------------------
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $address = $_POST['address'];
@@ -24,5 +27,29 @@ else{
     $stmt-> close();
     $conn-> close();
 }
+-------------------------------------------------------------------------------------------------
+
+*/
+$con = mysqli_connect("localhost", "root", "");
+if($con){
+    echo "connection successful";
+}
+else{
+    echo "connection fail". mysqli_connect_error();
+}
+
+mysqli_select_db($con, "WEB-ASSIGNMENT");
+$TABLE = "CREATE TABLE donation(ID INT(100) PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(20), PASSWORD VARCHAR(20), rat varchar(20) ) ";
+
+if(mysqli_query($con, $TABLE)) 
+{
+    echo "TABLE created";
+}
+else
+echo "TABLE creation failed" . mysqli_error($con);
+
+mysqli_close($con); 
+
+
 
 ?>
