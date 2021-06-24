@@ -106,3 +106,23 @@ body {
     color: #cc9900;
   }
   
+  .about
+  {
+    padding: 4px 12px;
+    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: .90rem;
+    margin-left: .75rem;
+    width :1325px;
+    border:solid #663300;
+  }
+
+  #top
+  {
+    color: black;
+  }
+
+  #cont
+  {
+    color: black;
+  }
