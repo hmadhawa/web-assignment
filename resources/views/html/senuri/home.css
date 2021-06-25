@@ -114,15 +114,16 @@ body {
     margin-right: .90rem;
     margin-left: .75rem;
     width :1325px;
-    border:solid #663300;
+    border:solid #cccc00;
+    
   }
 
   #top
   {
-    color: black;
+    color: #ff6600;
   }
 
   #cont
   {
-    color: black;
+    color:  #331a00;
   }
