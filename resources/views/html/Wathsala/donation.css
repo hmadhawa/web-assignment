@@ -186,6 +186,10 @@ body {
     width: calc(100% - 12px);
     padding: 5px;
     }
+    gender {
+      padding: 4px 5px;
+    }
+    
     .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
     color:  #006622;
     }

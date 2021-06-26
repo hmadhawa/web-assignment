@@ -122,13 +122,18 @@
             <label for="lname"> Last Name<span>*</span></label>
             <input id="lname" type="text" name="lname" />
           </div>
-          <div class ="item"> 
-            <label for="gender">Gender</label>
+         <div class ="item"> 
+            <label for="gender" class="gender">Gender</label>
             <br>
-            <input type="radio" name="transmission"> Make 
-            <input type="radio" name="transmission"> Female
-            <input type="radio" name="transmission"> Other
-          </div>
+            <select name="gender" id="gender">
+              <option value=""> Select</option>
+              <option > Male</option>
+              <option > Female</option>
+              <option > Other</option>
+              
+              </select>
+              <br />
+          </div> 
           <div class="item">
             <label for="address">Email Address<span>*</span></label>
             <input id="address" type="text"   name="address" />
@@ -149,10 +154,7 @@
             <label for="ddate">Date</label>
             <input type="date" id="ddate" name="date">
           </div>
-          <div class="item">
-            <label for="country">Country</label>
-            <input id="country" type="text"   name="text" />
-          </div>
+          
       </fieldset>
       <br/>
       <fieldset>
@@ -189,7 +191,7 @@
   <div class="card-body">
     <h5 class="card-title">Bank Details</h5>
     <h6 class="card-subtitle mb-2 text-muted">text</h6>
-    <p class="card-text">Some 's content.</p>
+    <p class="card-text"></p>
     
   </div>
 </div>
