@@ -21,6 +21,7 @@ body {
   .carousel-caption {
     bottom: 3rem;
     z-index: 10;
+   
   }
   
   /* Declare heights because of positioning of img element */
@@ -97,6 +98,7 @@ body {
     height: 25rem ;
     width: 30rem;
     align-items: center;
+    
   }
   
   .fwidth{
@@ -115,6 +117,7 @@ body {
     font-size: 14px;
     color: #666;
     line-height: 22px;
+    
     }
     h1 {
     position: absolute;
@@ -183,6 +186,10 @@ body {
     width: calc(100% - 12px);
     padding: 5px;
     }
+    gender {
+      padding: 4px 5px;
+    }
+    
     .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
     color:  #006622;
     }
@@ -274,9 +281,9 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px; 
-    background:  #1c87c9;
+    background:  #27AE60;
     font-size: 16px;
-    color: #fff;
+    color:  #fff;
     cursor: pointer;
     }
     button:hover {
@@ -297,5 +304,37 @@ body {
     display:block;
     padding-bottom:5px;
     }
+    }
+
+
+    /*nav bar*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: darkgreen;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px 30px;
+      text-decoration: none;
+      margin: 20;
+      background-color: darkgreen;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #ccff66;
+    }
+    
+    .active {
+      background-color: #003300;
     }
   
