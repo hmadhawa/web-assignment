@@ -528,7 +528,7 @@ a:hover{ color: #000; }
 	padding: 0px 0px 6px 0px;
 	font-size: 40px;
 	font-weight: bold;
-	color: #48773c;
+	color: darkgreen;
 	line-height: 46px;
 	border-bottom: #0fc690 solid 1px;
 	width: 410px;
@@ -555,8 +555,8 @@ a:hover{ color: #000; }
 
 .about .img-box a {
 	text-transform: uppercase;
-	border: #48773c solid 1px;
-	background:#48773c ;
+	border: darkgreen solid 1px;
+	background: darkgreen ;
 	width: 300px;
 	padding: 15px 0;
 	display: inline-block;
