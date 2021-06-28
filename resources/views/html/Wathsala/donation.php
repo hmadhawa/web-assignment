@@ -32,13 +32,16 @@ else{
 -------------------------------------------------------------------------------------------------
 
 */
-$con = mysqli_connect("localhost", "root", "");
+$con = mysqli_connect("localhost", "root", "", "web-assignment");
+if (!$con){
+    echo "Connection Fails!" . mysqli_connect_error();
+}
 
 mysqli_select_db($con, "WEB-ASSIGNMENT");
 if($con){
     //echo "connection successful";
     $stmt = $con-> prepare("insert into donation(first_name, last_name , gender, email, phone, address, country, date, amount, comments)
-    values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
     $stmt-> bind_param("ssisssssds", $fname, $lname, $gender, $address, $phone, $scity, $country, $date, $amount, $area);
     $stmt-> execute();
     echo "Form Submitted Successfully...!";
