@@ -21,7 +21,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #ccff66;
+  background-color: #75ca5b;
 }
 
 .active {
@@ -86,7 +86,6 @@ li a:hover:not(.active) {
     letter-spacing: -.05rem;
   }
   
-  
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   
@@ -144,9 +143,11 @@ li a:hover:not(.active) {
     width: 350px;
     height: 375px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: Arial, Helvetica, sans-serif;
     transition: 0.3s;
     border-radius: 5px; 
-    background-color: #97A396;
+    background-color: #030c55;
+    color: white;
   
   }
     .cardimg {
