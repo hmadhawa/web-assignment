@@ -42,23 +42,8 @@
 <body>
     <div id="app">
 
-         <!-- BEGIN NAVBAR  -->
-        @include('layouts.main_header')
-        <!--  END NAVBAR  -->
-
-        <!--  BEGIN NAVBAR  -->
-        @include('layouts.sub_header')
-        <!--  END NAVBAR  -->
-
         <!--  BEGIN MAIN CONTAINER  -->
         <div class="main-container" id="container">
-
-            <div class="overlay"></div>
-            <div class="search-overlay"></div>
-
-            <!--  BEGIN SIDEBAR  -->
-            @include('layouts.sidebar')
-            <!--  END SIDEBAR  -->
 
             <!--  BEGIN CONTENT AREA  -->
             @yield('content')
